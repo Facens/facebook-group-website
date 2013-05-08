@@ -1,4 +1,3 @@
-
 # Facebook Group Website Script
 
 This script was built with the Facebook PHP SDK in 2011.
@@ -23,5 +22,5 @@ You'll find the original graphics&css as a base for your own.
 ## Further Dev
 
 Development and bug fixing has been discontinued due to lack of time.
-You are free to use and branch the script.
+Feel free to improve and use the script.
 
