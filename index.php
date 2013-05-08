@@ -283,11 +283,11 @@ if ($user) {
 		$rssfeed = '<?xml version="1.0" encoding="UTF-8"?>';
 		$rssfeed .= '<rss version="2.0">';
 		$rssfeed .= '<channel>';
-		$rssfeed .= '<title>ISS - Italian Startup Scene</title>';
-		$rssfeed .= '<link>http://it.startupscene.org/</link>';
-		$rssfeed .= '<description>Feed del Gruppo Italian Startup Scene su Facebook</description>';
-		$rssfeed .= '<language>it-it</language>';
-		$rssfeed .= '<copyright>Copyright (C) 2011-2012 startupscene.org</copyright>';
+		$rssfeed .= '<title>Title of Feed</title>';
+		$rssfeed .= '<link>Source Website</link>';
+		$rssfeed .= '<description>Feed Description</description>';
+		$rssfeed .= '<language>lang code (eg.it-it)</language>';
+		$rssfeed .= '<copyright>Copyright (C) 2011-2012</copyright>';
 
 		foreach ($response['data'] as $value) {
 		
@@ -301,7 +301,7 @@ if ($user) {
         $rssfeed .= '<title>'.$value['from']['name'].' - aggiornato il '.date('d M Y H:i',$datagg) .'</title>';
         $rssfeed .= '<description>'.$testotroncato.'</description>';
         //$rssfeed .= '<link>' . $value['link'] . '</link>';
-		$rssfeed .= '<link>http://it.startupscene.org/#'.$id[1].'</link>';
+		$rssfeed .= '<link>http://www.yourwebsite.org/#'.$id[1].'</link>';
         $rssfeed .= '<pubDate>' . date('D, m F Y H:i:s T',$datapub) . '</pubDate>';
         $rssfeed .= '</item>';
     }
