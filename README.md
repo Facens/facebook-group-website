@@ -1,7 +1,5 @@
-facebook-group-website
-======================
 
-# [Facebook Group Website Script]
+# Facebook Group Website Script
 
 This script was built with the Facebook PHP SDK in 2011.
 It requires that you create an App on Facebook, in order for you to get APP and APP Secret codes.
@@ -17,6 +15,9 @@ The script also builds a valid RSS feed, with the latest posts from the group
 
 You can see it in action here [http://it.startupscene.org](http://it.startupscene.org).
 
+## Design
+
+You'll find the original graphics&css as a base for your own.
 
 
 ## Further Dev
